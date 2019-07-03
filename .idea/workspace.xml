@@ -4,6 +4,10 @@
     <list default="true" id="8b074cee-32e8-4dad-85e1-3fc99dda2357" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../FirstConnection/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstConnection/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FirstConnection/FirstConnection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstConnection/FirstConnection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstconnection/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstconnection/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lotto/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lotto/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PostgreSQLJDBC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PostgreSQLJDBC/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PostgreSQLJDBC/src/com/postgresqltutorial/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PostgreSQLJDBC/src/com/postgresqltutorial/App.java" afterDir="false" />
@@ -24,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/firstconnection/FirstConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="165">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -33,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/firstconnection/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="250">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -49,7 +53,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="784" />
     <option name="width" value="1205" />
     <option name="height" value="1056" />
@@ -111,6 +115,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="FirstConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="firstconnection.FirstConnection" />
+      <module name="FirstConnection_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="firstconnection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FirstConnection" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -125,7 +149,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="784" y="0" width="1205" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -133,14 +157,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24933687" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.053705692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13310961" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -158,15 +183,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/firstconnection/FirstConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="165">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/firstconnection/DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="250">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
