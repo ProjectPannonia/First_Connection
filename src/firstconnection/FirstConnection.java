@@ -5,5 +5,6 @@ public class FirstConnection {
         DB db = new DB();
         db.addUser("Ádám","Bakonyszombathely");
         db.addUserP("Béla","Tapolca");
+        db.showAllUsers();
     }
 }

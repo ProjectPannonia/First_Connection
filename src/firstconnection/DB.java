@@ -92,4 +92,19 @@ public class DB {
             System.out.println("" + e);
         }
     }
+    public void showAllUsers(){
+        String sql = "select * from users";
+        try {
+            ResultSet rs = createStatement.executeQuery(sql);
+            while (rs.next()){
+                String name = rs.getString("name");
+                String address = rs.getString("address");
+                System.out.println(name + "\n" + address);
+            }
+            System.out.println("Az adatbekérés sikeres!");
+        } catch (SQLException e) {
+            System.out.println("Probléma van az adatbekéréssel!");
+            System.out.println("" + e);
+        }
+    }
 }
