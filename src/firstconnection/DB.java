@@ -1,6 +1,7 @@
 package firstconnection;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -122,5 +123,67 @@ public class DB {
             System.out.println("A showAllUsersMetaData lekérdezés sikertelen!");
             System.out.println("" + e);
         }
+
+    }
+    //ArrayList készítése az adatokból, majd a kapott információkból user típusu objektumok létrehozása
+    public ArrayList<User> getAllUsers(){
+        String sql = "select * from users";
+        ArrayList<User> users = null;
+
+        try {
+            users = new ArrayList<>();
+            ResultSet rs = createStatement.executeQuery(sql);
+
+            while(rs.next()) {
+                String name = rs.getString("name");
+                String address = rs.getString("address");
+                User user = new User();
+                user.setName(name);
+                user.setAddress(address);
+            }
+        } catch (SQLException e) {
+            System.out.println("Probléma a getAllUsers függvénnyle!");
+            System.out.println("" + e);
+        }
+        return users;
+    }
+
+    //Ugyanazt tudja, csak más megoldás
+    public ArrayList<User> getAllUsers1(){
+        String sql = "select * from users";
+        ArrayList<User> users = null;
+        try {
+            users = new ArrayList<>();
+            ResultSet rs = createStatement.executeQuery(sql);
+
+            while(rs.next()){
+                User user = new User();
+                user.setName(rs.getString("name"));
+                user.setAddress(rs.getString("address"));
+
+            }
+        } catch (SQLException e) {
+            System.out.println("Probléma van a getAllUsers1 függvénnyle!");
+            System.out.println("" + e);
+        }
+        return users;
+    }
+
+    //Ugyanazt tudja, de le van rövidítve a kód
+    public ArrayList<User> getAllUsers2(){
+        String sql = "select * from users";
+        ArrayList<User> users = null;
+        try {
+            users = new ArrayList<>();
+            ResultSet rs = createStatement.executeQuery(sql);
+            while(rs.next()){
+                User actualuser = new User(rs.getString("name"),rs.getString("address"));
+                users.add(actualuser);
+            }
+        } catch (SQLException e) {
+            System.out.println("Probléma van a getAllUsers2 függvénnyel!");
+            System.out.println("" + e);
+        }
+        return users;
     }
 }

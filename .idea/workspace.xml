@@ -4,7 +4,14 @@
     <list default="true" id="8b074cee-32e8-4dad-85e1-3fc99dda2357" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../FirstConnection/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstConnection/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FirstConnection/FirstConnection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstConnection/FirstConnection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c490.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firstconnection/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstconnection/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lotto/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lotto/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PostgreSQLJDBC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PostgreSQLJDBC/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PostgreSQLJDBC/src/com/postgresqltutorial/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PostgreSQLJDBC/src/com/postgresqltutorial/App.java" afterDir="false" />
@@ -21,20 +28,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/firstconnection/FirstConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="420">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/firstconnection/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/firstconnection/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="118" column="74" selection-start-line="118" selection-start-column="74" selection-end-line="118" selection-end-column="74" />
+            <state relative-caret-position="222">
+              <caret line="179" column="61" selection-start-line="179" selection-start-column="61" selection-end-line="179" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,6 +74,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,20 +84,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" />
+        <option value="$PROJECT_DIR$/src/firstconnection/UsersData.java" />
+        <option value="$PROJECT_DIR$/src/firstconnection/User.java" />
         <option value="$PROJECT_DIR$/src/firstconnection/DB.java" />
+        <option value="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Derby.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="802" />
     <option name="width" value="1120" />
     <option name="height" value="1043" />
@@ -160,10 +181,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="802" y="0" width="1120" height="1043" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15678777" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.027926961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -172,7 +193,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.07037457" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20134228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -192,20 +213,44 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/firstconnection/FirstConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/firstconnection/UsersData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="132">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/firstconnection/DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="118" column="74" selection-start-line="118" selection-start-column="74" selection-end-line="118" selection-end-column="74" />
+        <state relative-caret-position="222">
+          <caret line="179" column="61" selection-start-line="179" selection-start-column="61" selection-end-line="179" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firstconnection/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firstconnection/FirstConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
