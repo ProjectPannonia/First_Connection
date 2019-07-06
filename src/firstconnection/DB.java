@@ -55,12 +55,19 @@ public class DB {
             //Azért kell a next, mert ha nincs már első eleme sem, akkor tudjuk, hogy nem létezik
             if (!rs1.next()) {
                 //Ha nincs már első eleme se, akkor hívjuk a "teherautót". És sql parancsot küldünk az adatbázisnak.
-                createStatement.execute("create table users(name varchar(20), age varchar(20))");
+                createStatement.execute("create table users(name varchar(20), address varchar(20))");
             }
         } catch (SQLException e) {
             System.out.println("Probléma van az adattáblák létrehozásakor!");
             System.out.println("" + e);
         }
-
+    }
+    //Felhasználó hozzáadása az adattáblához(adatküldés)
+    public void addUser(String name,String address){
+        try {
+            createStatement.execute("insert into users('"+name+"'),('"+address+"')");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }
