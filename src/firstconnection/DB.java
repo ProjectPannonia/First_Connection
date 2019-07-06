@@ -22,6 +22,8 @@ public class DB {
     private DatabaseMetaData dmbd = null;
     //Létrehoztunk egy whiteboardot, amin vissza érkezik az adat(ha van)
     private ResultSet rs1 = null;
+    //Felturbozott teherauto
+    private PreparedStatement ps = null;
 
     public DB() {
         // Megrpóbáljuk létrehozni a hidat
@@ -49,8 +51,7 @@ public class DB {
             Logger.getLogger(DB.class.getName()).log(Level.SEVERE, null, e);
         }
         try {
-            // Az rs1 maga a whiteboard, ezen érkeznek vissza az adatok.
-            //Ellenőrzi, hogy létezik-e ilyen tábla
+            // Az rs1 maga a whiteboard, ezen érkeznek vissza az adatok.Ellenőrzi, hogy létezik-e ilyen tábla
             rs1 = dmbd.getTables(null, "APP", "USERS", null);
             //Azért kell a next, mert ha nincs már első eleme sem, akkor tudjuk, hogy nem létezik
             if (!rs1.next()) {
@@ -70,7 +71,25 @@ public class DB {
             createStatement.execute(sql);
             System.out.println("Adatküldés sikeres!");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Adatküldés sikertelen a statement-el");
+            System.out.println("" + e);
+        }
+    }
+
+    //Felhasználó hozzáadása a táblához a "felturbozott" kocsival
+    public void addUserP(String name, String address){
+        try {
+            //Paraméterek átadása nem közvetlen, így véd a hibás adatbeviteltől
+            String sql = "insert into users values(?, ?)";
+            ps = conn.prepareStatement(sql);
+            //Típusellenőrzés
+            ps.setString(1,name);
+            ps.setString(2,address);
+            ps.execute();
+            System.out.println("Adatküldés sikeres a preparedStatement-el");
+        } catch (SQLException e) {
+            System.out.println("Adatküldés sikertelen a preparedStatement-el");
+            System.out.println("" + e);
         }
     }
 }
