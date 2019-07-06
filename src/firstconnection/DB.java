@@ -186,4 +186,16 @@ public class DB {
         }
         return users;
     }
+    public void addUser(User user){
+        String sql = "insert into users values(?,?)";
+        try {
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1,user.getName());
+            ps.setString(2,user.getAddress());
+            ps.execute();
+        } catch (SQLException e) {
+            System.out.println("Valami baj van az addUser methodussal!");
+            System.out.println("" + e);
+        }
+    }
 }
