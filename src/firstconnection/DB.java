@@ -99,11 +99,27 @@ public class DB {
             while (rs.next()){
                 String name = rs.getString("name");
                 String address = rs.getString("address");
-                System.out.println(name + "\n" + address);
+                System.out.println(name + " | " + address);
             }
             System.out.println("Az adatbekérés sikeres!");
         } catch (SQLException e) {
             System.out.println("Probléma van az adatbekéréssel!");
+            System.out.println("" + e);
+        }
+    }
+    public void showAllUsersMetaData(){
+        ResultSet rs = null;
+        String sql = "select * from users";
+        ResultSetMetaData rsmd = null;
+        try {
+            rs = createStatement.executeQuery(sql);
+            rsmd = rs.getMetaData();
+            int columnCount = rsmd.getColumnCount();
+            for(int i = 1; i <= columnCount; i++){
+                System.out.println(" | " + rsmd.getColumnName(i) + " | ");
+            }
+        } catch (SQLException e) {
+            System.out.println("A showAllUsersMetaData lekérdezés sikertelen!");
             System.out.println("" + e);
         }
     }

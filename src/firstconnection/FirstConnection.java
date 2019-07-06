@@ -6,5 +6,6 @@ public class FirstConnection {
         db.addUser("Ádám","Bakonyszombathely");
         db.addUserP("Béla","Tapolca");
         db.showAllUsers();
+        db.showAllUsersMetaData();
     }
 }
