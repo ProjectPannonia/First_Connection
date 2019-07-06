@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/../FirstConnection/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstConnection/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FirstConnection/FirstConnection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstConnection/FirstConnection.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstConnection_/firstconnection/DB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstConnection_/firstconnection/FirstConnection.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleDb/db.lck" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleDb/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleDb/log/log.ctrl" beforeDir="false" />
@@ -83,7 +86,27 @@
       <change beforePath="$PROJECT_DIR$/sampleDb/seg0/cd1.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleDb/seg0/ce1.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sampleDb/seg0/cf0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c490.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleDb1/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/sampleDb1/seg0/cb1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firstconnection/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstconnection/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lotto/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lotto/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PostgreSQLJDBC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PostgreSQLJDBC/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PostgreSQLJDBC/src/com/postgresqltutorial/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PostgreSQLJDBC/src/com/postgresqltutorial/App.java" afterDir="false" />
@@ -101,20 +124,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/firstconnection/FirstConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/firstconnection/DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="67" column="79" selection-start-line="67" selection-start-column="79" selection-end-line="67" selection-end-column="79" />
+            <state relative-caret-position="462">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +160,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" />
         <option value="$PROJECT_DIR$/src/firstconnection/DB.java" />
+        <option value="$PROJECT_DIR$/src/firstconnection/FirstConnection.java" />
       </list>
     </option>
   </component>
@@ -151,8 +174,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="622" />
-    <option name="width" value="1300" />
+    <option name="x" value="802" />
+    <option name="width" value="1120" />
     <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -243,7 +266,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08807734" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08807734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -252,7 +275,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.07606264" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22706935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -260,7 +283,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32997763" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -272,20 +295,20 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/firstconnection/FirstConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/firstconnection/DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="67" column="79" selection-start-line="67" selection-start-column="79" selection-end-line="67" selection-end-column="79" />
+        <state relative-caret-position="462">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/firstconnection/FirstConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
         </state>
       </provider>
     </entry>

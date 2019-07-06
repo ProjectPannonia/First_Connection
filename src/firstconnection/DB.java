@@ -6,22 +6,22 @@ import java.util.logging.Logger;
 
 public class DB {
     //Adatbázis elérési címe
-    final String JDBC_DRIVER = "org.apache.derby.jdbc.EmbeddedDriver";
+    private final String JDBC_DRIVER = "org.apache.derby.jdbc.EmbeddedDriver";
     //Adatbázis létrehozása(ha még nincs)
-    final String URL = "jdbc:derby:sampleDb1;create = true";
+    private final String URL = "jdbc:derby:sampleDb1;create = true";
     //Az adatbázishoz tartozó felhasználónév
-    final String USERNAME = "";
+    private final String USERNAME = "";
     //Az adatbázishoz tartozó jelszó
-    final String PASSWORD = "";
+    private final String PASSWORD = "";
 
     //Létrehozunk egy null referenciájú connectiont
-    Connection conn = null;
+    private Connection conn = null;
     //Létrehozunk egy teherautót
-    Statement createStatement = null;
+    private Statement createStatement = null;
     //Létrehozunk a meta adatok lekérdezéséhez, egy objektumot
-    DatabaseMetaData dmbd = null;
+    private DatabaseMetaData dmbd = null;
     //Létrehoztunk egy whiteboardot, amin vissza érkezik az adat(ha van)
-    ResultSet rs1 = null;
+    private ResultSet rs1 = null;
 
     public DB() {
         // Megrpóbáljuk létrehozni a hidat
@@ -62,10 +62,13 @@ public class DB {
             System.out.println("" + e);
         }
     }
+
     //Felhasználó hozzáadása az adattáblához(adatküldés)
     public void addUser(String name,String address){
+        String sql = "insert into users values('"+name+"','"+address+"')";
         try {
-            createStatement.execute("insert into users('"+name+"'),('"+address+"')");
+            createStatement.execute(sql);
+            System.out.println("Adatküldés sikeres!");
         } catch (SQLException e) {
             e.printStackTrace();
         }
