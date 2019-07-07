@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Sat Jul 06 22:12:23 CEST 2019:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.1.3 - (1853019): instance a816c00e-016b-c8ea-8cc7-00000f6834b8 
-on database directory D:\Repo\FirstConnection_\sampleDb1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5a07e868 
-Loaded from file:/D:/Repo/FirstConnection_/Derby/derby.jar
+Sat Jul 06 23:07:48 CEST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.1.3 - (1853019): instance a816c00e-016b-c91d-4b1f-00000f679eb0 
+on database directory D:\Repo\FirstConnection_Refactored\sampleDb1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5a07e868 
+Loaded from file:/D:/Repo/FirstConnection_Refactored/Derby/derby.jar
 java.vendor=Oracle Corporation
 java.runtime.version=12.0.1+12
-user.dir=D:\Repo\FirstConnection_
+user.dir=D:\Repo\FirstConnection_Refactored
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0

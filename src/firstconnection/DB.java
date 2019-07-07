@@ -16,9 +16,9 @@ public class DB {
     private final String PASSWORD = "";
 
     //Létrehozunk egy null referenciájú connectiont
-    private Connection conn = null;
+    Connection conn = null;
     //Létrehozunk egy teherautót
-    private Statement createStatement = null;
+    Statement createStatement = null;
     //Létrehozunk a meta adatok lekérdezéséhez, egy objektumot
     private DatabaseMetaData dmbd = null;
     //Létrehoztunk egy whiteboardot, amin vissza érkezik az adat(ha van)
@@ -93,38 +93,6 @@ public class DB {
             System.out.println("" + e);
         }
     }
-    public void showAllUsers(){
-        String sql = "select * from users";
-        try {
-            ResultSet rs = createStatement.executeQuery(sql);
-            while (rs.next()){
-                String name = rs.getString("name");
-                String address = rs.getString("address");
-                System.out.println(name + " | " + address);
-            }
-            System.out.println("Az adatbekérés sikeres!");
-        } catch (SQLException e) {
-            System.out.println("Probléma van az adatbekéréssel!");
-            System.out.println("" + e);
-        }
-    }
-    public void showAllUsersMetaData(){
-        ResultSet rs = null;
-        String sql = "select * from users";
-        ResultSetMetaData rsmd = null;
-        try {
-            rs = createStatement.executeQuery(sql);
-            rsmd = rs.getMetaData();
-            int columnCount = rsmd.getColumnCount();
-            for(int i = 1; i <= columnCount; i++){
-                System.out.println(" | " + rsmd.getColumnName(i) + " | ");
-            }
-        } catch (SQLException e) {
-            System.out.println("A showAllUsersMetaData lekérdezés sikertelen!");
-            System.out.println("" + e);
-        }
-
-    }
     //ArrayList készítése az adatokból, majd a kapott információkból user típusu objektumok létrehozása
     public ArrayList<User> getAllUsers(){
         String sql = "select * from users";
@@ -167,35 +135,5 @@ public class DB {
             System.out.println("" + e);
         }
         return users;
-    }
-
-    //Ugyanazt tudja, de le van rövidítve a kód
-    public ArrayList<User> getAllUsers2(){
-        String sql = "select * from users";
-        ArrayList<User> users = null;
-        try {
-            users = new ArrayList<>();
-            ResultSet rs = createStatement.executeQuery(sql);
-            while(rs.next()){
-                User actualuser = new User(rs.getString("name"),rs.getString("address"));
-                users.add(actualuser);
-            }
-        } catch (SQLException e) {
-            System.out.println("Probléma van a getAllUsers2 függvénnyel!");
-            System.out.println("" + e);
-        }
-        return users;
-    }
-    public void addUser(User user){
-        String sql = "insert into users values(?,?)";
-        try {
-            PreparedStatement ps = conn.prepareStatement(sql);
-            ps.setString(1,user.getName());
-            ps.setString(2,user.getAddress());
-            ps.execute();
-        } catch (SQLException e) {
-            System.out.println("Valami baj van az addUser methodussal!");
-            System.out.println("" + e);
-        }
     }
 }
